@@ -19,11 +19,11 @@ const Hero = () => {
           Developer / Skater / Creator
         </p>
         <h1 className="font-display text-7xl md:text-9xl lg:text-[12rem] leading-[0.85] tracking-tight text-foreground">
-          YOUR
+          Hi, I'm
           <br />
-          <span className="text-stroke">NAME</span>
+          <span className="text-stroke">Acwengile Morris !</span>
           <br />
-          HERE
+          A Software Engineer
         </h1>
         <div className="mt-8 flex gap-6 items-center animate-fade-up" style={{ animationDelay: "0.2s" }}>
           <a

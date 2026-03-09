@@ -1,9 +1,9 @@
 const Contact = () => {
   const links = [
-    { label: "GitHub", href: "#" },
-    { label: "Twitter / X", href: "#" },
-    { label: "Instagram", href: "#" },
-    { label: "Email", href: "mailto:hello@example.com" },
+    { label: "GitHub", href: "https://github.com/Cwengii" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/acwengile-morris-95a3bb317/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7TGCiG7vS5qzdhonbjIaDQ%3D%3D" },
+    { label: "Instagram", href: "https://www.instagram.com/cweng.z?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" },
+    { label: "Email", href: "mailto:hello@acwengilemorris24@gmail.com" },
   ];
 
   return (
@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 gap-12">
           <p className="font-mono text-sm leading-relaxed text-muted-foreground">
             Got a project in mind? Want to collaborate on something wild? 
-            Or just want to talk about the best skate spots? Hit me up.
+            Hit me up.
           </p>
           <div className="flex flex-col gap-4">
             {links.map((link) => (
@@ -44,7 +44,7 @@ const Contact = () => {
           © 2026 — Built with code & concrete
         </p>
         <p className="font-mono text-xs text-muted-foreground">
-          Designed & developed by me
+          Designed & developed by Cwengz
         </p>
       </div>
     </section>

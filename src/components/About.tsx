@@ -3,11 +3,12 @@ const About = () => {
     "React / Next.js",
     "TypeScript",
     "Node.js",
-    "Three.js",
+    "Python",
     "Figma",
-    "After Effects",
-    "Blender",
-    "Skateboarding",
+    "Java",
+    "Data Engineering",
+    "Web Development",
+    "Javascript",
   ];
 
   return (
@@ -16,15 +17,12 @@ const About = () => {
         <div>
           <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">// About</p>
           <h2 className="font-display text-5xl md:text-7xl text-foreground mb-6">
-            CODE.<br />CREATE.<br />SKATE.
+            CODE.<br />CREATE.<br />
           </h2>
         </div>
         <div className="flex flex-col justify-center">
           <p className="font-mono text-sm leading-relaxed text-muted-foreground mb-8">
-            I'm a creative developer who lives at the intersection of technology and street culture. 
-            By day, I build digital experiences that push boundaries. By evening, I'm at the skatepark 
-            finding new lines. Both worlds feed the same obsession: the pursuit of something that feels 
-            effortless but takes everything to achieve.
+          I am a highly inquisitive and committed problem-solver dedicated to figuring out complex technical challenges and driving solutions to completion. My strong belief in continuous improvement (levelling up) means I am constantly learning new security frameworks and tools to find better, more efficient ways to manage and mitigate digital risks. Working on diverse projects allows me to proactively expand my skillset, ensuring I remain adaptable and effective in an ever-evolving cyber landscape.
           </p>
           <div className="flex flex-wrap gap-2">
             {skills.map((skill) => (
