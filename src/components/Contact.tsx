@@ -4,6 +4,7 @@ const Contact = () => {
     { label: "LinkedIn", href: "https://www.linkedin.com/in/acwengile-morris-95a3bb317/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7TGCiG7vS5qzdhonbjIaDQ%3D%3D" },
     { label: "Instagram", href: "https://www.instagram.com/cweng.z?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" },
     { label: "Email", href: "mailto:hello@acwengilemorris24@gmail.com" },
+    
   ];
 
   return (

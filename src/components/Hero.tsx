@@ -16,27 +16,41 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 w-full px-6 md:px-12 lg:px-24">
         <p className="font-mono text-sm tracking-widest uppercase text-primary mb-4 animate-fade-up">
-          Developer / Skater / Creator
+          Software & Data Engineer / Creator
         </p>
         <h1 className="font-display text-7xl md:text-9xl lg:text-[12rem] leading-[0.85] tracking-tight text-foreground">
           Hi, I'm
           <br />
           <span className="text-stroke">Acwengile Morris !</span>
           <br />
-          A Software Engineer
+          A Software & Data Engineer
         </h1>
         <div className="mt-8 flex gap-6 items-center animate-fade-up" style={{ animationDelay: "0.2s" }}>
           <a
             href="#work"
             className="font-mono text-sm uppercase tracking-widest bg-primary text-primary-foreground px-6 py-3 hover:bg-foreground hover:text-background transition-colors glitch-hover"
           >
-            View Work
+            View Projects
           </a>
           <a
             href="#contact"
             className="font-mono text-sm uppercase tracking-widest text-primary border border-primary px-6 py-3 hover:bg-primary hover:text-primary-foreground transition-colors"
           >
             Contact
+          </a>
+          <a
+            href="/cv.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-mono text-sm uppercase tracking-widest text-primary border border-primary px-6 py-3 hover:bg-primary hover:text-primary-foreground transition-colors"
+          >
+            CV
+          </a>
+          <a
+            href="#know-me"
+            className="font-mono text-sm uppercase tracking-widest text-primary border border-primary px-6 py-3 hover:bg-primary hover:text-primary-foreground transition-colors"
+          >
+            Get To Know Acwengile
           </a>
         </div>
       </div>
@@ -46,7 +60,7 @@ const Hero = () => {
         <div className="animate-marquee whitespace-nowrap flex">
           {Array.from({ length: 2 }).map((_, i) => (
             <span key={i} className="font-display text-2xl text-muted-foreground mx-8">
-              CREATIVE CODE • SKATE CULTURE • UI/UX DESIGN • FULL STACK DEV • MOTION GRAPHICS • STREET ART • CREATIVE CODE • SKATE CULTURE • UI/UX DESIGN • FULL STACK DEV • MOTION GRAPHICS • STREET ART •{" "}
+              CREATIVE CODE • UI/UX DESIGN • FULL STACK DEV • Data •  ART • CREATIVE CODE • UI/UX DESIGN • FULL STACK DEV • Security • STREET ART • CREATIVE CODE • UI/UX DESIGN • FULL STACK DEV • Data •  ART • CREATIVE CODE • UI/UX DESIGN • FULL STACK DEV • Security • STREET ART •{" "}
             </span>
           ))}
         </div>

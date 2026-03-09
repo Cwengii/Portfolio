@@ -4,22 +4,25 @@ import project3 from "@/assets/project-3.jpg";
 
 const projects = [
   {
-    title: "Dev Setup",
-    category: "Creative Tech",
-    description: "Custom development environment with a skater's touch",
+    title: "CyberQuest",
+    category: "Cybersecurity",
+    description: "Cybersecurity project to help kids learn about the importance of cybersecurity",
     image: project1,
+    link: "https://gk-ah-cwengz-stars.vercel.app/",
   },
   {
-    title: "Glitch Series",
-    category: "Digital Art",
-    description: "Generative art exploring the beauty of digital errors",
+    title: "TaxiFind",
+    category: "Cybersecurity, Data Engineering, Creative Design",
+    description: "A web application that allows users to find the safest route to their destination using data from the South African Police Service",
     image: project2,
+    link: "https://github.com/Cwengii/Taxi-Find",
   },
   {
-    title: "Circuit Deck",
-    category: "Product Design",
-    description: "Custom skateboard deck merging tech aesthetics with street culture",
+    title: "Command Center Dashboard",
+    category: "Data Engineering, Creative Design",
+    description: "A dashboard that allows users to monitor the status of the command center",
     image: project3,
+    link: "#",
   },
 ];
 
@@ -34,7 +37,7 @@ const Projects = () => {
           {projects.map((project, i) => (
             <a
               key={project.title}
-              href="#"
+              href={project.link}
               className="group block animate-fade-up"
               style={{ animationDelay: `${i * 0.15}s` }}
             >
@@ -57,6 +60,15 @@ const Projects = () => {
               </p>
             </a>
           ))}
+        </div>
+        
+        <div className="text-center mt-16">
+          <a
+            href="https://github.com/Cwengii?tab=repositories"
+            className="inline-block font-mono text-sm uppercase tracking-widest text-primary hover:text-foreground transition-colors border border-primary hover:border-foreground px-8 py-3"
+          >
+            More Projects
+          </a>
         </div>
       </div>
     </section>
