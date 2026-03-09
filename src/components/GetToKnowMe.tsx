@@ -18,37 +18,37 @@ const GetToKnowMe = () => {
     <section id="know-me" className="py-24 px-6 md:px-12 lg:px-24 border-t border-border bg-background">
       <div className="max-w-6xl mx-auto">
         <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">// Beyond the Code</p>
-        <h2 className="font-display text-5xl md:text-7xl text-foreground mb-16">WHO IS ACWENGILE MORRIS ?</h2>
+        <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-foreground mb-16">WHO IS ACWENGILE MORRIS ?</h2>
 
         {/* Interests Grid */}
-        <div className="grid md:grid-cols-4 gap-4 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
           {interests.map((interest, i) => (
             <div
               key={interest.title}
-              className="border border-border p-6 hover:border-primary transition-colors animate-fade-up"
+              className="border border-border p-4 sm:p-6 hover:border-primary transition-colors animate-fade-up"
               style={{ animationDelay: `${i * 0.1}s` }}
             >
-              <div className="text-4xl mb-3">{interest.emoji}</div>
-              <h3 className="font-display text-xl text-foreground mb-2">{interest.title}</h3>
+              <div className="text-3xl sm:text-4xl mb-3">{interest.emoji}</div>
+              <h3 className="font-display text-lg sm:text-xl text-foreground mb-2">{interest.title}</h3>
               <p className="font-mono text-xs text-muted-foreground">{interest.description}</p>
             </div>
           ))}
         </div>
 
         {/* Photo Gallery */}
-        <div className="grid md:grid-cols-3 gap-6 mb-16">
-          <div className="md:col-span-2 overflow-hidden border border-border h-64">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+          <div className="md:col-span-2 overflow-hidden border border-border h-48 sm:h-64">
             <img src={interest1} alt="My interests" className="w-full h-full object-cover" />
           </div>
-          <div className="overflow-hidden border border-border h-64">
+          <div className="overflow-hidden border border-border h-48 sm:h-64">
             <img src={interest2} alt="My hobbies" className="w-full h-full object-cover" />
           </div>
-          <div className="overflow-hidden border border-border">
+          <div className="overflow-hidden border border-border h-48 sm:h-64">
             <img src={interest3} alt="My lifestyle" className="w-full h-full object-cover" />
           </div>
-          <div className="md:col-span-2 border border-border p-8 flex items-center">
+          <div className="md:col-span-2 border border-border p-6 sm:p-8 flex items-center">
             <div>
-              <h3 className="font-display text-3xl text-foreground mb-4">Life Outside Code</h3>
+              <h3 className="font-display text-2xl sm:text-3xl text-foreground mb-4">Life Outside Code</h3>
               <p className="font-mono text-sm text-muted-foreground leading-relaxed">
                 When I'm not coding, you'll find me exploring new creative spots, serving at church, and gaming or probably watching anime. 
                 I believe in balance—pushing boundaries in tech while staying grounded in the things that inspire me.
@@ -58,9 +58,9 @@ const GetToKnowMe = () => {
         </div>
 
         {/* Fun Facts */}
-        <div className="border border-border p-8">
-          <h3 className="font-display text-2xl text-foreground mb-6">Quick Facts</h3>
-          <div className="grid md:grid-cols-2 gap-6 font-mono text-sm">
+        <div className="border border-border p-6 sm:p-8">
+          <h3 className="font-display text-xl sm:text-2xl text-foreground mb-6">Quick Facts</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 font-mono text-sm">
             <div>
               <span className="text-primary">// Favorite Quote:</span>
               <p className="text-muted-foreground mt-1">"Have faith as small as a mustard seed :)"</p>

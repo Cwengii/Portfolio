@@ -33,7 +33,7 @@ const Projects = () => {
         <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">// Selected Work</p>
         <h2 className="font-display text-5xl md:text-7xl text-foreground mb-16">PROJECTS</h2>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, i) => (
             <a
               key={project.title}

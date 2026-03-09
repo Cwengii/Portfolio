@@ -11,11 +11,11 @@ const Contact = () => {
     <section id="contact" className="py-24 px-6 md:px-12 lg:px-24 border-t border-border">
       <div className="max-w-6xl mx-auto">
         <p className="font-mono text-xs uppercase tracking-widest text-primary mb-4">// Contact</p>
-        <h2 className="font-display text-5xl md:text-8xl lg:text-9xl text-foreground mb-12">
+        <h2 className="font-display text-4xl sm:text-6xl md:text-8xl lg:text-9xl text-foreground mb-12">
           LET'S<br />
           <span className="text-stroke">CONNECT</span>
         </h2>
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           <p className="font-mono text-sm leading-relaxed text-muted-foreground">
             Got a project in mind? Want to collaborate on something wild? 
             Hit me up.

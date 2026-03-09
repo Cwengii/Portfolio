@@ -18,14 +18,14 @@ const Hero = () => {
         <p className="font-mono text-sm tracking-widest uppercase text-primary mb-4 animate-fade-up">
           Software & Data Engineer / Creator
         </p>
-        <h1 className="font-display text-7xl md:text-9xl lg:text-[12rem] leading-[0.85] tracking-tight text-foreground">
+        <h1 className="font-display text-4xl sm:text-6xl md:text-8xl lg:text-[12rem] leading-[0.85] tracking-tight text-foreground">
           Hi, I'm
           <br />
           <span className="text-stroke">Acwengile Morris !</span>
           <br />
-          A Software & Data Engineer
+          <span className="text-2xl sm:text-4xl md:text-6xl lg:text-8xl">A Software & Data Engineer</span>
         </h1>
-        <div className="mt-8 flex gap-6 items-center animate-fade-up" style={{ animationDelay: "0.2s" }}>
+        <div className="mt-8 flex flex-col sm:flex-row gap-4 sm:gap-6 items-start sm:items-center animate-fade-up" style={{ animationDelay: "0.2s" }}>
           <a
             href="#work"
             className="font-mono text-sm uppercase tracking-widest bg-primary text-primary-foreground px-6 py-3 hover:bg-foreground hover:text-background transition-colors glitch-hover"
@@ -59,7 +59,7 @@ const Hero = () => {
       <div className="absolute bottom-0 left-0 w-full border-t border-border overflow-hidden py-3">
         <div className="animate-marquee whitespace-nowrap flex">
           {Array.from({ length: 2 }).map((_, i) => (
-            <span key={i} className="font-display text-2xl text-muted-foreground mx-8">
+            <span key={i} className="font-display text-lg sm:text-xl md:text-2xl text-muted-foreground mx-4 sm:mx-8">
               CREATIVE CODE • UI/UX DESIGN • FULL STACK DEV • Data •  ART • CREATIVE CODE • UI/UX DESIGN • FULL STACK DEV • Security • STREET ART • CREATIVE CODE • UI/UX DESIGN • FULL STACK DEV • Data •  ART • CREATIVE CODE • UI/UX DESIGN • FULL STACK DEV • Security • STREET ART •{" "}
             </span>
           ))}
